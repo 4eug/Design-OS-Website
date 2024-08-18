@@ -1,5 +1,4 @@
 import { Button } from "../button";
-import { Hero, HeroIndicator, HeroSubtitle, HeroTitle } from "../hero";
 import { FigmaIcon } from "../icons/figma";
 
 

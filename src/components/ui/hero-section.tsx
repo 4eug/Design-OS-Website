@@ -5,7 +5,7 @@ import { FigmaIcon } from "../icons/figma";
 export default function HeroSection() {
   return (
     <section className="pt-10sm:pt-16 lg:pt-24">
-    <div className="container mx-auto px-4 sm:px-6 2xl:px-12">
+    <div className="container mx-auto px-4 sm:px-6 2xl:px-12 mt-4 sm:mt-0">
         <div className=" max-w-7xl mx-auto">
             <span className="bg-gray-100 text-caption-md-medium px-[6px] py-1 border-2 border-[#F0F0F0] rounded-full">
                 Design OS [V1.0]

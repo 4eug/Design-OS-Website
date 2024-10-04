@@ -17,11 +17,26 @@ export default function Layout({
 }>) {
   return (
     <html lang="en">
-       <head>
+      <head>
         <meta
           name="viewport"
           content="width=device-width, height=device-height, initial-scale=1"
         />
+        <meta name="description" content="For Designers & Engineers" />
+        <meta name="keywords" content="Design, Engineering, Designers, Engineers, UI, UX" />
+        <title>Design OS</title>
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Design OS" />
+        <meta property="og:description" content="For Designers & Engineers" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+
+
+        {/* Additional Meta Tags */}
+        <link rel="canonical" href="" />
+        <meta name="robots" content="index, follow" />
       </head>
       <body className={inter.className}>
         <div>

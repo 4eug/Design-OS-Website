@@ -13,7 +13,11 @@ export default function header() {
                     </a>
                 </div>
 
-                <Button size='medium'>
+                <Button size='medium'
+                href="https://www.figma.com/community/file/1424003734348021920/design-os"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
                     <FigmaIcon/>
                     Preview</Button>
             </div>

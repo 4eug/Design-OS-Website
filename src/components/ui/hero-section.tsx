@@ -15,7 +15,13 @@ export default function HeroSection() {
             <h2 className="text-H2-bold lg:text-H1-bold w-[343px] sm:w-[332px] lg:w-[658px]">Design and Develop with a Unified Vision</h2>
             <div className="space-y-4">
             <p className="text-text-md-regular lg:text-text-lg-regular text-[#525252] w-[342px] sm:w-[332px] lg:w-[510px] mt-6 sm:mt-0 lg:mt-0">Enabling designers and developers to build consistent, scalable, and beautiful interfaces effortlessly. Dive into a library crafted for seamless collaboration..</p>
-            <Button size='medium'>
+            
+            <Button 
+                size='medium' 
+                href="https://www.figma.com/community/file/1424003734348021920/design-os"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 <FigmaIcon/>
                 Preview
             </Button>
@@ -23,8 +29,12 @@ export default function HeroSection() {
         </div>
     </div>
 
-    <div className="container mx-auto 2xl:px-12">
-        <img className="w-full mt-8 sm:mt-14 lg:mt-16" src="../Components.svg" alt="components" />
+    <div className="container mx-auto pt-8 sm:pt-0 2xl:px-12">
+        <img 
+            className="w-full h-[80vh] object-cover object-center sm:w-full sm:h-auto sm:mt-0 lg:mt-16"
+            src="/Components.svg"
+            alt="components"
+        />
     </div>
 </section>
   )

@@ -31,8 +31,7 @@ export default function Layout({
         <meta property="og:description" content="For Designers & Engineers" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="" />
-        <meta property="og:image" content="" />
-
+        <meta property="og:image" content="https://drive.google.com/file/d/1TN6ZP3st-xAeNkECMau7UGIJ-KC0TCbn/view?pli=1" />
 
         {/* Additional Meta Tags */}
         <link rel="canonical" href="" />

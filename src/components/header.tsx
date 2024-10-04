@@ -8,8 +8,8 @@ export default function header() {
         <div className="px-4 mx-auto  max-w-7xl">
             <div className="flex items-center justify-between h-16 lg:h-20">
                 <div className="flex-shrink-0">
-                    <a href="#" title="" className="flex">
-                        logo
+                    <a href="#" title="Home" className="flex">
+                       <img src="/Logo.svg" alt="Design OS" className="h-8" />
                     </a>
                 </div>
 
